@@ -1,0 +1,5 @@
+package quad
+
+func ff() {
+	
+}
