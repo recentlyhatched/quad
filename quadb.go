@@ -30,6 +30,8 @@ package quad
 //     }
 // }
 
+
 // func main() {
 //     quad.QuadB(5, 3)
 // }
+
