@@ -1,5 +1,7 @@
 package main
 
+import "quad"
+
 func main() {
-	quad.QuadA()
+	quad.QuadC()
 }
