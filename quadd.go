@@ -1,1 +1,23 @@
 package quad
+
+import "fmt"
+
+func QuadD(x, y int) {
+	if x <= 0 || y <= 0 {
+		return
+	}
+	for row := 1; row <= y; row++ {
+		for col := 1; col <= x; col++ {
+			if (row == 1 || row == y) && (col == 1 || col == x) {
+				fmt.Print("A")
+			} else if row == 1 || row == y {
+				fmt.Print("B")
+			} else if col == 1 || col == x {
+				fmt.Print("B")
+			} else {
+				fmt.Print(" ")
+			}
+		}
+		fmt.Println()
+	}
+}
