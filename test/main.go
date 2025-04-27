@@ -5,5 +5,5 @@ import
 
 
 func main() {
-	quad.QuadE(1, 5)
+	quad.QuadA(5, 1)
 }
