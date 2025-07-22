@@ -3,7 +3,7 @@
 ## Description
 This project is written in Go. It runs based on the calling QuadA(), QuadB(), QuadC(), QuadD() or QuadE(). In Golang, Pascal case is used to export functions. These functions take two numbers as parameters. The first parameter represents the width of the output and the second parameter represents the length.
 
-Example: QuadA(5, 1)
+Example: QuadA(5, 1)\
 Terminal output: o---o
 
 ## Authors
@@ -21,18 +21,18 @@ Go to your terminal and run the following:
 To write a function that prints a valid retangle, we used for-loops and conditional if-statements. With the for loop, we were able to iterate through each column and row using nested loops for basic/repeat characters. Then, based on which column or row, print special "corner" characters.
 
 ### Examples:
-Function: quad.QuadC(3, 6)
-Output:
-ABA
+Function: quad.QuadC(3, 6)\
+Output:\
+`ABA
 B B
 B B
 B B
 B B
-CBC
+CBC`
 
-Function: quad.QuadE(7, 4)
-Output:
-ABBBBBC
+Function: quad.QuadE(7, 4)\
+Output:\
+`ABBBBBC
 B     B
 B     B
-CBBBBBA
+CBBBBBA`
