@@ -1,8 +1,6 @@
 package main
 
-import 
-	"quad"
-
+import "quad"
 
 func main() {
 	quad.QuadA(5, 1)
