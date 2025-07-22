@@ -23,16 +23,16 @@ To write a function that prints a valid retangle, we used for-loops and conditio
 ### Examples:
 Function: quad.QuadC(3, 6)\
 Output:\
-`ABA
-B B
-B B
-B B
-B B
-CBC`
+ABA\
+B B\
+B B\
+B B\
+B B\
+CBC
 
 Function: quad.QuadE(7, 4)\
-Output:\
-`ABBBBBC
-B     B
-B     B
-CBBBBBA`
+Output (a fullstop represents a space, " "):\
+ABBBBBC\
+B.....B\
+B.....B\
+CBBBBBA\
